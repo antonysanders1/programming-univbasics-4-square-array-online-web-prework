@@ -6,6 +6,7 @@ def square_array(array)
   
   while counter < array.length do
     
+<<<<<<< HEAD
     results.push(array[counter]**2)
     counter += 1
     
@@ -13,5 +14,14 @@ def square_array(array)
 
   array[counter]
   results
+=======
+    array[counter]
+    results.push(array[counter]**2)
+    counter += 1
+    
+    results
+  end
+
+>>>>>>> dd047f2f0e84821b154734e4e8539ddcf13743b0
 
 end
